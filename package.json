@@ -1,0 +1,11 @@
+{
+  "name": "mern-feedbackapp",
+  "version": "1.0.0",
+  "description": "// start the project - mkdir server - cd server - npm init",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
