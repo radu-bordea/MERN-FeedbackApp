@@ -29,7 +29,8 @@ passport.use(
     {
       clientID: keys.googleClientID, // From your Google Developer Console
       clientSecret: keys.googleClientSecret,
-      callbackURL: "/auth/google/callback", // Where Google redirects after login
+      callbackURL: "/auth/google/callback", // Where Google redirects after login,
+      proxy: true // accept any proxy
     },
     async (accessToken, refreshToken, profile, done) => {
       // Check if this Google profile ID already exists in our database
