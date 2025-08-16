@@ -16,3 +16,4 @@
 # client directory
 - npm run start
 - npm install http-proxy-middleware@2
+- npm install --save redux react-redux react-router-dom@5
